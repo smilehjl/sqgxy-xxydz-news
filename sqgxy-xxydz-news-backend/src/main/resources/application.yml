@@ -1,0 +1,44 @@
+server:
+  port: 10086
+  # 请求头最大大小 10MB
+  max-http-header-size: 10485760
+  servlet:
+    encoding:
+      charset: UTF-8
+
+spring:
+  #resources:
+    #指定静态资源路径，默认为classpath:[/META-INF/resources/,/resources/, /static/, /public/]以及context:/
+    #static-locations: {classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/images,classpath:/static/images/}
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    #url: jdbc:mysql://180.76.56.118:3306/news_website?useSSL=false&useUnicode=true&characterEncoding=UTF8&serverTimezone=UTC
+    #url: jdbc:mysql://180.76.56.118:3306/sqgxy-xxydz-news?useSSL=false&useUnicode=true&characterEncoding=UTF8&serverTimezone=UTC
+    url: jdbc:mysql://180.76.56.118:3306/sqgxy-xxydz-new-localhost?useSSL=false&useUnicode=true&characterEncoding=UTF8&serverTimezone=UTC
+    username: root
+    password: xmpkj
+
+  jackson:
+    # 使用24小时的时间格式
+    default-property-inclusion: NON_NULL
+    # 设置时区为东八区
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd
+
+  http:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+mybatis-plus:
+  # 枚举类所在包
+  type-enums-package: sqgxy.xxydz.enums
+  configuration:
+    #打印日志sql
+    #log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    # 开启驼峰命名规则
+    map-underscore-to-camel-case: true
+    # 枚举映射
+    default-enum-type-handler: org.apache.ibatis.type.EnumOrdinalTypeHandler
+
