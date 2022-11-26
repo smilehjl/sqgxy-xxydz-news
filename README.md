@@ -1,7 +1,7 @@
 # 商丘工学院新闻网
 
 ### 1、前言
-
+Cancel changes
 &emsp;&emsp;`sqgxy-xxydz-news`是在大四参加的web大赛的一个项目，与我的队友协同开发，在此过程中收获颇多。
 
 ------
@@ -57,8 +57,6 @@
 - 前端页面
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/1cf6ee2aac534cd9add5e67829331c7c.png)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/40027c2bc4dd4274ba14c766597167a4.png)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/1d22d7e4511640ac8f116beb814ca5be.png)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/15d720e01df14df3bc068553745f7fa6.png)
 - 后端页面
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/0876b73b7216461aa252780c2bcca50d.png)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/569b89a95dd247fa8f9d5ff8b53b84c7.png)
