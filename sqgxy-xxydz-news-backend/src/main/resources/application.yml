@@ -16,7 +16,7 @@ spring:
     #url: jdbc:mysql://180.76.56.118:3306/sqgxy-xxydz-news?useSSL=false&useUnicode=true&characterEncoding=UTF8&serverTimezone=UTC
     url: jdbc:mysql://180.76.56.118:3306/sqgxy-xxydz-new-localhost?useSSL=false&useUnicode=true&characterEncoding=UTF8&serverTimezone=UTC
     username: root
-    password: xmpkj
+    password: root
 
   jackson:
     # 使用24小时的时间格式
