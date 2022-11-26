@@ -1,7 +1,6 @@
 # 商丘工学院新闻网
 
 ### 1、前言
-
 &emsp;&emsp;`sqgxy-xxydz-news`是在大四参加的web大赛的一个项目，与我的队友协同开发，在此过程中收获颇多。
 
 ------
@@ -51,6 +50,14 @@
 - 后端
 - - 修改`application.yml`中的数据库信息，然后运行即可。
 
-### 6、预览图片
+---
 
-******************
+### 6、预览图片
+- 前端页面
+![在这里插入图片描述](https://img-blog.csdnimg.cn/1cf6ee2aac534cd9add5e67829331c7c.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/40027c2bc4dd4274ba14c766597167a4.png)
+- 后端页面
+![在这里插入图片描述](https://img-blog.csdnimg.cn/0876b73b7216461aa252780c2bcca50d.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/569b89a95dd247fa8f9d5ff8b53b84c7.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/88e5c994a64f4e159724b6df33ebcb1d.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/fcce967026cb4ec1a058f8229d9d4c29.png)
