@@ -1,7 +1,6 @@
 # 商丘工学院新闻网
 
 ### 1、前言
-Cancel changes
 &emsp;&emsp;`sqgxy-xxydz-news`是在大四参加的web大赛的一个项目，与我的队友协同开发，在此过程中收获颇多。
 
 ------
