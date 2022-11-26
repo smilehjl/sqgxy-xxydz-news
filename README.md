@@ -55,4 +55,12 @@
 
 ### 6、预览图片
 - 前端页面
-Snipaste_2022-11-25_23-00-07
+![在这里插入图片描述](https://img-blog.csdnimg.cn/1cf6ee2aac534cd9add5e67829331c7c.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/40027c2bc4dd4274ba14c766597167a4.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/1d22d7e4511640ac8f116beb814ca5be.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/15d720e01df14df3bc068553745f7fa6.png)
+- 后端页面
+![在这里插入图片描述](https://img-blog.csdnimg.cn/0876b73b7216461aa252780c2bcca50d.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/569b89a95dd247fa8f9d5ff8b53b84c7.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/88e5c994a64f4e159724b6df33ebcb1d.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/fcce967026cb4ec1a058f8229d9d4c29.png)
