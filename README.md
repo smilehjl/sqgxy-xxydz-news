@@ -24,8 +24,7 @@
 
 ##### 1、后台管理系统
 
-后端项目`sqgxy-xxydz-news-backed`地址：https://github.com/macrozheng/mall-admin-web
-
+后端项目`sqgxy-xxydz-news-backed`地址：https://github.com/xmpjava/sqgxy-xxydz-news/tree/main/sqgxy-xxydz-news-backend
 项目演示地址： http://180.76.56.118/#/login
 
 ##### 2、后台接口
@@ -36,7 +35,7 @@
 
 ##### 3、前台新闻系统
 
-前端项目`sqgxy-xxydz-news-fronted`地址：
+前端项目`sqgxy-xxydz-news-fronted`地址：https://github.com/xmpjava/sqgxy-xxydz-news/tree/main/sqgxy-xxydz-news-frontend
 
 项目演示地址：http://180.76.56.118/
 
