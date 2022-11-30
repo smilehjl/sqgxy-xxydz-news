@@ -2,6 +2,59 @@
 
 import request from '../utils/request'
 
+/**
+ * 折线图数据渲染
+ * @returns {*}
+ */
+export const getLine = ()=>{
+  return request({
+    method: 'GET',
+    url: '/echarts/line'
+  })
+}
+
+/**
+ * 得到用户总数
+ * @returns {*}
+ */
+export const getUserNums = () => {
+  return request({
+    method: 'GET',
+    url: '/echarts/usernums'
+  })
+}
+/**
+ * 得到新闻总数
+ * @returns {*}
+ */
+export const getNewsNums = () => {
+  return request({
+    method: 'GET',
+    url: '/echarts/newsnums'
+  })
+}
+/**
+ * 得到一级标题总数
+ * @returns {*}
+ */
+export const getH1Nums = () => {
+  return request({
+    method: 'GET',
+    url: '/echarts/h1nums'
+  })
+}
+/**
+ * 得到二级标题总数
+ * @returns {*}
+ */
+export const getH2Nums = () => {
+  return request({
+    method: 'GET',
+    url: '/echarts/h2nums'
+  })
+}
+
+
 // 获取小标题
 export const getMinTitle = data => {
   return request({

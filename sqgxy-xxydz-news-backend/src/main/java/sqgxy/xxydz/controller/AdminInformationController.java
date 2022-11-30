@@ -1,7 +1,9 @@
 package sqgxy.xxydz.controller;
 
+import org.springframework.web.bind.annotation.*;
 import sqgxy.xxydz.dto.AdminInformationSaveDTO;
 import sqgxy.xxydz.dto.AdminInformationUpdateDTO;
+import sqgxy.xxydz.entity.AdminInformation;
 import sqgxy.xxydz.permission.annotation.GeneralAdmin;
 import sqgxy.xxydz.permission.annotation.SuperAdmin;
 import sqgxy.xxydz.service.AdminInformationService;
@@ -14,10 +16,6 @@ import io.swagger.annotations.ApiOperation;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.TypeToken;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
@@ -66,4 +64,19 @@ public class AdminInformationController {
     public Result getAdminInformationList() {
         return new Result().ok().data(modelMapper.map(adminInformationService.getAdminInformationList(), new TypeToken<List<AdminInformationVO>>(){}.getType()));
     }
+
+    @ApiOperation(value = "获得全部管理员列表")
+    @GetMapping("/all")
+    public Result getAll() {
+        List<AdminInformation> list = adminInformationService.list();
+       return new Result().ok().data(list);
+    }
+
+    @ApiOperation(value = "根据id查询管理员列表")
+    @GetMapping("/{id}")
+    public Result getOne(@PathVariable Integer id){
+        AdminInformation byId = adminInformationService.getById(id);
+        return new Result().ok().data(byId);
+    }
+
 }

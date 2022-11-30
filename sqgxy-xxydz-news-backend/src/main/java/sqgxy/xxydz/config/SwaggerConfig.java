@@ -36,7 +36,7 @@ public class SwaggerConfig {
         return new ApiInfoBuilder()
                 .title("商丘工学院-信电分院-新闻网")
                 .description("本文档描述了后端接口API定义")
-                .version("1.0.2")
+                .version("1.0.3")
                 .contact(
                         new Contact
                                 ("@xmp", "https://blog.csdn.net/qq_53463544?spm=1000.2115.3001.5343", "xmp0526@162.com")

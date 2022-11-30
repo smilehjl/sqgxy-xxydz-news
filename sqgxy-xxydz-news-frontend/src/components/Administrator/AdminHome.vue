@@ -13,10 +13,22 @@
                router
                :collapse='isCollapse'>
         <el-menu-item index='admain'>
-          <i class='el-icon-location'></i>
-          <span slot='title'>首页</span>
+          <i class='el-icon-document-copy'></i>
+          <span slot='title'>新闻管理</span>
         </el-menu-item>
-        <el-menu-item index='Welcome'>
+        <el-menu-item index='Agency'>
+          <i class='el-icon-edit-outline'></i>
+          <span slot='title'>待办事项</span>
+        </el-menu-item>
+        <el-menu-item index='dataView'>
+          <i class='el-icon-s-data'></i>
+          <span slot='title'>数据分析</span>
+        </el-menu-item>
+        <el-menu-item index='map'>
+          <i class='el-icon-s-flag'></i>
+          <span slot='title'>地图显示</span>
+        </el-menu-item>
+        <el-menu-item index='file'>
           <i class='el-icon-folder'></i>
           <span slot='title'>文件管理</span>
         </el-menu-item>
@@ -32,6 +44,7 @@
           <i class='el-icon-user-solid'></i>
           <span slot='title'>关于我们</span>
         </el-menu-item>
+
         <el-submenu index='/'>
           <template slot='title'>
             <i class='el-icon-location'></i>
@@ -41,9 +54,10 @@
             <span slot='title'>关于本站</span>      <!-- todo 10086 -->
             <el-menu-item onclick="javascript:window.open('http://180.76.56.118:10086/swagger-ui.html')">后端接口</el-menu-item>
             <el-menu-item onclick="javascript:window.open('https://gitee.com/love-code-bear/News-Sqgxy')">项目地址</el-menu-item>
-            <el-menu-item index='1-3'>心得体会</el-menu-item>
+            <el-menu-item index='Edition'>系统版本</el-menu-item>
           </el-menu-item-group>
         </el-submenu>
+
       </el-menu>
       <!--2--->
       <el-main>

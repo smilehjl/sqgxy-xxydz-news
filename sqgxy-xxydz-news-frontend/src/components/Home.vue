@@ -55,6 +55,7 @@ export default {
   mounted() {
     // todo 部署端口10086
     let api3 = 'http://180.76.56.118:10086/news_type/all'
+    //let api3 = 'http://43.138.103.28:10086/news_type/all'
     //let api3 = 'http://localhost:10086/news_type/all'
     axios
       .get(api3)

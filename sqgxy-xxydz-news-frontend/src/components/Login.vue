@@ -1,7 +1,8 @@
 <template>
+
   <div class='login'>
     <el-form class='login-form' :model='loginForm'>
-      <h3 class='title'>新闻管理平台</h3>
+      <h3 class='title'>商丘工学院新闻网</h3>
       <el-form-item>
         <el-input v-model='loginForm.username' prefix-icon='el-icon-user-solid' type='text' placeholder='账号'></el-input>
       </el-form-item>
@@ -20,6 +21,7 @@
       <span>Copyright © 2022-2022.</span>
     </div>
   </div>
+
 </template>
 
 <script>
@@ -66,7 +68,6 @@ export default {
 
 <style lang='less' scoped>
 .login {
-  //background-image: url('../assets/bg2.png');
   background-image: url('../assets/bg-login.png');
   background-size: 100% 100%;
   // background-size: auto;

@@ -10,7 +10,8 @@
   "dependencies": {
     "axios": "^0.18.0",
     "D": "^1.0.0",
-    "element-ui": "^2.15.6",
+    "echarts": "^5.4.0",
+    "element-ui": "^2.15.12",
     "node_module": "^0.0.0",
     "quill-image-resize-module": "^3.0.0",
     "vue": "^2.5.22",

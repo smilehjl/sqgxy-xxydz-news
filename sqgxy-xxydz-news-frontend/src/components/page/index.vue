@@ -6,6 +6,7 @@
         <el-carousel height='450px' arrow='always' :interval='3000'>
           <el-carousel-item v-for='(item, index) in imgList' :key='index'>
             <div @click='gonew(item.id)' class='cursor' style='width:590px; height:450px'>
+              <!-- todo 10086 -->
               <img :src="'http://180.76.56.118:10086/' + item.picturePath" alt='' style='width:100%; height:90%' />
             </div>
           </el-carousel-item>
@@ -22,10 +23,10 @@
 
     <!-- 定位fixed -->
     <div class='fixed1'>
-      <a @click="$router.push('Info')"><img src='../../assets/gzh1.jpg' alt='' /></a>
+      <a @click="$router.push('Info')"><img src='../../assets/6.jpg' alt='' /></a>
     </div>
     <div class='fixed2'>
-      <a @click="$router.push('Info')"><img src='../../assets/wb1.jpg' alt='' /></a>
+      <a @click="$router.push('/MapView')"><img src='../../assets/5.jpg' alt='' /></a>
     </div>
   </div>
 </template>

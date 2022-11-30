@@ -13,8 +13,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     #url: jdbc:mysql://180.76.56.118:3306/news_website?useSSL=false&useUnicode=true&characterEncoding=UTF8&serverTimezone=UTC
-    #url: jdbc:mysql://180.76.56.118:3306/sqgxy-xxydz-news?useSSL=false&useUnicode=true&characterEncoding=UTF8&serverTimezone=UTC
-    url: jdbc:mysql://180.76.56.118:3306/sqgxy-xxydz-new-localhost?useSSL=false&useUnicode=true&characterEncoding=UTF8&serverTimezone=UTC
+    url: jdbc:mysql://180.76.56.118:3306/sqgxy-xxydz-news?useSSL=false&useUnicode=true&characterEncoding=UTF8&serverTimezone=UTC
+    #url: jdbc:mysql://180.76.56.118:3306/sqgxy-xxydz-new-localhost?useSSL=false&useUnicode=true&characterEncoding=UTF8&serverTimezone=UTC
     username: root
     password: root
 
@@ -36,7 +36,7 @@ mybatis-plus:
   type-enums-package: sqgxy.xxydz.enums
   configuration:
     #打印日志sql
-    #log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    # log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
     # 开启驼峰命名规则
     map-underscore-to-camel-case: true
     # 枚举映射

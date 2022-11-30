@@ -15,7 +15,7 @@ import Info from './components/page/Info.vue'
 import News from './components/page/News.vue'
 import moreMessage from './views/homePage/moreMessage'
 import Administrator from './components/Administrator/AdminHome.vue'
-import Welcome from './components/Administrator/Welcome.vue'
+import File from './components/Administrator/File.vue'
 import Main from './components/Administrator/Main.vue'
 import Edit from './components/Administrator/Edit.vue'
 import EditLunBo from './components/Administrator/EditLunBo.vue'
@@ -29,6 +29,11 @@ import AddXdstarView from '@/components/Administrator/XdStarManager/AddXdstarVie
 import StarDetail from '@/components/page/StarDetail'
 import addInformationView from '@/components/Administrator/PhoneManager/AddInformationView'
 import EditInformation from '@/components/Administrator/PhoneManager/EditInformation'
+import DataView from '@/components/Administrator/DataView'
+import Map from '@/components/Administrator/MapView'
+import MapView from '@/components/page/MapView'
+import Edition from '@/components/Administrator/Edition'
+import agency from '@/components/Administrator/Agency.vue'
 
 Vue.use(Router)
 
@@ -40,7 +45,7 @@ const router = new Router({
       path: '/administrator',
       component: Administrator,
       children: [
-        { path: 'welcome', component: Welcome },
+        { path: 'file', component: File },
         { path: 'main', component: Main },
         { path: 'edit', component: Edit },
         { path: 'news', component: News },
@@ -53,7 +58,11 @@ const router = new Router({
         { path: 'AddXdstarView', component: AddXdstarView },
         { path: 'PhoneManager', component: PhoneManager },
         { path: 'addInformationView',component: addInformationView },
-        { path: 'EditInformation',component: EditInformation }
+        { path: 'EditInformation',component: EditInformation },
+        { path: 'dataView',component: DataView },
+        { path: 'map',component: Map },
+        { path: 'Edition',component: Edition },
+        { path: 'agency',component: agency }
       ]
     },
     {
@@ -122,9 +131,10 @@ const router = new Router({
           path: 'StarDetail',
           name: 'StarDetail',
           component: StarDetail
-        }
+        },
       ]
     },
+    { path: '/MapView' ,component: MapView},
     { path: '*', component: NotFound }
   ],
   scrollBehavior(to, from, savedPosition) {

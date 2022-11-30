@@ -49,12 +49,14 @@ export default {
             size: 10, // 可选参数 图片大小，单位为M，1M = 1024kb
             // todo 端口10086
             //action: 'http://localhost:10086/uploading',
+            //action: 'http://43.138.103.28:10086/uploading',
             action: 'http://180.76.56.118:10086/uploading',
             // todo 端口10086
             response: res => {
               console.log(res)
               //return 'http://localhost:10086/' + res.data
               return 'http://180.76.56.118:10086/' + res.data
+              //return 'http://43.138.103.28:10086/' + res.data
             },
             headers: xhr => {
               // axios.defaults.withCredentials = true;
